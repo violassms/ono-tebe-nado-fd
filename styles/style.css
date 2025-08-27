@@ -1,1 +1,98 @@
-/* место для вашего кода */
+.header {
+    margin: 0px;
+    padding: 90px 50px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+.header__menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__links-list {
+    display: flex;
+    justify-content: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__links-list-item {
+    text-decoration: none;
+}
+
+.link__circle {
+    list-style: circle;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__logo-image {
+    height: auto;
+    width: 105px;
+}
+
+.address {
+    max-width: 1100px;
+    justify-self: end;
+}
+
+.adress__header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+/* .content {
+    opacity: 0.2;
+    background: #000;
+} */
+
+.cover {
+    padding: 50px;
+    width: 1100px;
+    min-height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/* .cover-overlay {
+    position: relative;
+} */
+
+.aligned-text {
+    padding: 105px 0px 0px 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 100px;
+    line-height: 115px;
+    letter-spacing: 30px;
+}
+
+.aligned-text_left {
+    display: block;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.cover__description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
